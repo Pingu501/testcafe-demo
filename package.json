@@ -4,7 +4,8 @@
     "description": "Small demo for showing testcafe with gherkin and browserStack",
     "main": "demo.js",
     "scripts": {
-        "test": "gherkin-testcafe firefox example.js example.feature"
+        "test": "gherkin-testcafe firefox example.js example.feature",
+        "test:html-report": "gherkin-testcafe firefox example.js example.feature --reporter html:./result.html -s screenshots"
     },
     "author": "",
     "license": "ISC",
@@ -12,6 +13,7 @@
         "cucumber": "^5.1.0",
         "gherkin-testcafe": "^2.2.0",
         "testcafe": "^1.1.4",
-        "testcafe-browser-provider-browserstack": "^1.8.0"
+        "testcafe-browser-provider-browserstack": "^1.8.0",
+        "testcafe-reporter-html": "^1.4.4"
     }
 }
