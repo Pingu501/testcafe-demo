@@ -12,6 +12,7 @@ When(/^I say I tested TestCafe$/, async t => t.click('#tried-test-cafe'));
 When(/^I rate it with "([^"]*)"$/, async(t, [rating]) => {});
 When(/^I press the submit button$/, async t => t.click('#submit-button'));
 
+Then(/^I take a screenshot$/, async t => await t.takeScreenshot('./screens/test.png'));
 Then(/^I see the thank you page$/, async t => {
     await t.expect(await Selector('title').textContent).eql('Thank you!');
 });

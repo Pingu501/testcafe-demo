@@ -11,3 +11,4 @@ Feature: TestCafe Demo Page
     And I press the submit button
 
     Then I see the thank you page
+    And I take a screenshot
