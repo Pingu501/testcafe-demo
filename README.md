@@ -4,7 +4,7 @@
 
 ## Run it
 ```
-npm run tests
+npm run test
 
 # or
 
