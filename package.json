@@ -5,7 +5,8 @@
     "main": "demo.js",
     "scripts": {
         "test": "gherkin-testcafe firefox example.js example.feature",
-        "test:html-report": "gherkin-testcafe firefox example.js example.feature --reporter html:./result.html -s screenshots"
+        "test:html-report": "gherkin-testcafe firefox example.js example.feature --reporter html:./result.html -s screenshots",
+        "clean": "rm -rf screenshots && rm result.html"
     },
     "author": "",
     "license": "ISC",
