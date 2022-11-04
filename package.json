@@ -14,6 +14,6 @@
         "gherkin-testcafe": "^2.2.0",
         "testcafe": "^1.1.4",
         "testcafe-browser-provider-browserstack": "^1.8.0",
-        "testcafe-reporter-html": "^1.4.4"
+        "testcafe-reporter-html": "^1.4.6"
     }
 }
